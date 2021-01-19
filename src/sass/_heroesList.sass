@@ -1,0 +1,17 @@
+
+/** CAJA CONTENEDORA DE TARJETAS DE LOS HEROES **/
+.Heroes_container
+    margin: 0 auto
+    padding: 20px
+    max-width: 1200px
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 15px
+
+@media screen and ( max-width: 1000px )
+    .Heroes_container
+        grid-template-columns: repeat(2, 1fr)
+
+@media screen and ( max-width: 650px )
+    .Heroes_container
+        grid-template-columns: 1fr

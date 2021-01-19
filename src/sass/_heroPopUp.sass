@@ -1,0 +1,38 @@
+@forward 'heroCard'
+
+.overlay
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: rgba(0, 0, 0, .8)
+    z-index: 1000
+
+.heroes_card_popUp
+    background-size: contain
+    background-repeat: no-repeat
+    border-radius: 10px
+    color: white
+    height: 500px
+    left: 50%
+    position: fixed
+    top: 50%
+    transform: translate(-50%, -50%)
+    width: 312px
+    z-index: 1000
+
+    display: flex
+    align-items: flex-end
+
+.heroes_card_text_popUp
+    background-color: rgba(0, 0, 0, .8)
+    width: 100%
+    border-radius: 0 0 10px 10px
+    padding: 10px
+
+    p
+        margin: 0
+
+        span
+            font-weight: bold

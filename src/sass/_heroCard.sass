@@ -1,0 +1,41 @@
+
+/** TARJETA DE HEROES **/
+
+.heroes_card
+    background-color: white
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px
+    border-radius: 10px
+    height: 220px
+    padding: 15px
+    transition: all .3s linear
+
+    display: flex
+    flex-flow: column nowrap
+    justify-content: space-between
+
+    &:hover
+        transform: scale(1.1)
+        z-index: 5
+
+.heroes_card_content
+    display: grid
+    grid-template-columns: 1fr 2fr
+
+.hero_card_img
+    max-width: 90px
+    border-radius: 10px
+
+.heroes_card_text
+    padding: 5px
+    text-align: left
+    display: flex
+    flex-flow: column
+    justify-content: center
+
+    p
+        margin: 0
+        padding: 2px
+        line-height: 1
+
+        span
+            font-weight: bold

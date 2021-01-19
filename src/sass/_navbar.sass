@@ -1,0 +1,65 @@
+@use 'variables' as v
+
+/** BARRA DE NAVEGACIÓN **/
+.navbar_top
+    background-color: v.$color-p
+    display: grid
+    grid-template-columns: 1fr 3fr  1fr
+    justify-content: center
+    align-items: center
+    padding: 0px 10px
+    #logo
+        font-weight: bold
+        font-size: 2rem
+    a
+        font-family: v.$font-headers
+        color: white
+    .logout
+        transform: all  .3s linear
+        &:hover
+            color: v.$color-s
+            transform: scale(1.1)
+
+.nav_container
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    justify-content: stretch
+    align-items: center
+
+.navbar_link
+    margin: 0 auto
+    padding: 10px 10px
+    text-align: center
+    text-decoration: none
+    transform: all  .3s linear
+
+    &:hover
+        color: v.$color-t
+        transform: scale(1.1)
+
+.active
+    color: v.$color-t
+
+/** MEDIA QUERY BARRA DE NAVEGACIÓN **/
+
+@media screen and ( max-width: 1036px )
+    .navbar_top
+        grid-template-columns: 1fr 2fr  1fr
+    .nav_container
+        grid-template-columns: repeat(3, 1fr)
+
+@media screen and ( max-width: 833px )
+    .navbar_top
+        display: flex
+        flex-flow: row wrap
+        justify-content: stretch
+        align-items: center
+    .nav_container
+        flex: 1 0 220px
+        grid-template-columns: repeat(2, 1fr)
+    .navbar_link
+        flex: 1 0 220px
+
+/** FIN MEDIA QUERY BARRA DE NAVEGACIÓN **/
+
+/** FIN BARRA DE NAVEGACIÓN **/
