@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.168170f4.chunk.css",
-    "main.js": "/static/js/main.84823654.chunk.js",
-    "main.js.map": "/static/js/main.84823654.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c115d30e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c115d30e.js.map",
-    "static/js/2.8f38b28a.chunk.js": "/static/js/2.8f38b28a.chunk.js",
-    "static/js/2.8f38b28a.chunk.js.map": "/static/js/2.8f38b28a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.168170f4.chunk.css.map": "/static/css/main.168170f4.chunk.css.map",
-    "static/js/2.8f38b28a.chunk.js.LICENSE.txt": "/static/js/2.8f38b28a.chunk.js.LICENSE.txt"
+    "main.css": "/superHeroes_cards_app/static/css/main.168170f4.chunk.css",
+    "main.js": "/superHeroes_cards_app/static/js/main.c06564a3.chunk.js",
+    "main.js.map": "/superHeroes_cards_app/static/js/main.c06564a3.chunk.js.map",
+    "runtime-main.js": "/superHeroes_cards_app/static/js/runtime-main.2ba22cd0.js",
+    "runtime-main.js.map": "/superHeroes_cards_app/static/js/runtime-main.2ba22cd0.js.map",
+    "static/js/2.8f38b28a.chunk.js": "/superHeroes_cards_app/static/js/2.8f38b28a.chunk.js",
+    "static/js/2.8f38b28a.chunk.js.map": "/superHeroes_cards_app/static/js/2.8f38b28a.chunk.js.map",
+    "index.html": "/superHeroes_cards_app/index.html",
+    "static/css/main.168170f4.chunk.css.map": "/superHeroes_cards_app/static/css/main.168170f4.chunk.css.map",
+    "static/js/2.8f38b28a.chunk.js.LICENSE.txt": "/superHeroes_cards_app/static/js/2.8f38b28a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c115d30e.js",
+    "static/js/runtime-main.2ba22cd0.js",
     "static/js/2.8f38b28a.chunk.js",
     "static/css/main.168170f4.chunk.css",
-    "static/js/main.84823654.chunk.js"
+    "static/js/main.c06564a3.chunk.js"
   ]
 }
