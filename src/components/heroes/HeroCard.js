@@ -6,7 +6,7 @@ export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance
         <div className="heroes_card" onClick={() => handlePopUp({ id, show: true })}>
             <div className="heroes_card_content">
                 <div>
-                    <img src={`assets/heroes/${id}.jpg`} className="hero_card_img" alt={superhero} />
+                    <img src={`/assets/heroes/${id}.jpg`} className="hero_card_img" alt={superhero} />
                 </div>
                 <div className="heroes_card_text">
                     <p><span>Álter ego:</span> {alter_ego}</p>
