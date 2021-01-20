@@ -1,6 +1,5 @@
 {
   "name": "07-heroes-app",
-  "homepage": "https://aadrianras.github.io/superHeroes_cards_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
