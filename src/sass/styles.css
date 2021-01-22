@@ -194,6 +194,47 @@
   font-weight: bold;
 }
 
+.busqueda {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.busqueda_form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.busqueda_form h1 {
+  margin: 25px 0;
+}
+.busqueda_form form {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 25px;
+  width: 400px;
+}
+.busqueda_form form input {
+  border-radius: 50px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  width: 100%;
+}
+.busqueda_form form button {
+  max-width: 150px;
+  margin: 0px auto;
+}
+
+/** SECCION DONDE SE MUESTRA LA TARJETA DEL SUPERHEROE **/
+.busqueda_card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 /** ESTILOS GENERALES **/    
 body {
   font-family: "Abel", sans-serif;

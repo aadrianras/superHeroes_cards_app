@@ -2,6 +2,7 @@ import React from 'react';
 
 export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, characters, handlePopUp }) => {
     const imgHero = `${process.env.PUBLIC_URL}/assets/heroes/${id}.jpg`;
+
     return (
         <div className="heroes_card animate__animated animate__fadeIn" onClick={() => handlePopUp({ id, show: true })}>
             <div className="heroes_card_content">

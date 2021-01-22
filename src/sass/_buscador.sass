@@ -1,0 +1,38 @@
+
+=centrar_contenido
+    display: flex
+    flex-flow: column nowrap
+    justify-content: center
+    align-items: center
+
+.busqueda
+    height: 100vh
+    width: 100vw
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+
+.busqueda_form
+    +centrar_contenido
+
+    h1
+        margin: 25px 0
+
+    form
+        display: flex
+        flex-flow: column nowrap
+        padding: 25px
+        width: 400px
+
+        input
+            border-radius: 50px
+            margin-bottom: 15px
+            padding: 5px 10px
+            width: 100%
+
+        button
+            max-width: 150px
+            margin: 0px auto
+
+/** SECCION DONDE SE MUESTRA LA TARJETA DEL SUPERHEROE **/
+.busqueda_card
+    +centrar_contenido
